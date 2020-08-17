@@ -4,7 +4,7 @@ d= [[0] * m for _ in range(n)]
 x, y, direction = map(int, input().split())
 d[x][y] = 1
 
-array = [] # 지도 입력받을 곳r
+array = [] # 지도 입력받을 곳
 for i in range(n):
     array.append(list(map(int, input().split())))
 
